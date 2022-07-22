@@ -1,0 +1,133 @@
+body{
+    font-family: 'Calibri', sans-serif !important;
+}
+
+/* --------------------------------- CSS des réponses dans le topic  */
+
+@import url(http://fonts.googleapis.com/css?family=Calibri:400,300,700);
+
+.card{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid transparent;
+    border-radius: 0px
+}
+
+.comment-widgets{
+    position: relative;
+    margin-bottom: 10px; 
+}
+
+.comment-widgets .comment-row{
+    border-bottom: 1px solid transparent;
+    padding: 14px;
+    display: flex;
+    margin: 10px 0;
+}
+
+/* div qui contient l'avatar de l'utilisateur eyant posté le message */
+.avatar-container{
+    padding: 0.5rem !important;
+    width: 25%;
+    max-width: 100px;
+
+
+}
+
+.avatar-container img{
+    border-radius: 50%;
+    max-height: 100px;
+    min-height: 100px;
+    margin-top: 10%;
+}
+
+/* div qui contient le pseudo, le message et les actions */
+.comment-text{
+    padding-left: 15px;
+    width: 100% !important;
+}
+
+/* Pseudonyme de l'utilisateur qui a poster le message */
+h6{
+    font-size: 1.5em;
+}
+
+
+.m-b-15{
+    margin-bottom: 15px;
+}
+
+.btn-sm{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.76563rem;
+    line-height: 1.5;
+    border-radius: 1px;
+}
+
+/* Boutton edit */
+.btn-cyan{
+    color: #fff;
+    background-color: #27a9e3;
+    border-color: #27a9e3
+}
+
+.btn-cyan:hover{
+    color: #fff;
+    background-color: #1a93ca;
+    border-color: #198bbe
+}
+
+.comment-widgets .comment-row:hover{
+    background: rgba(0, 0, 0, 0.05)
+}
+
+.comment-footer{
+    margin-top: 8%;
+}
+
+
+
+/* --------------------------------- CSS du formulaire d'envoi d'une réponse à un topic  */
+
+body h1{
+    text-align: center;
+    margin: 3%;
+}
+
+/* formulaire pour poster un message dans un topic */
+.form{
+    margin: 40px auto;
+}
+
+/* Input pour valider la réponse la réponse */
+input{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+p{
+    width: 45%;
+    margin: 5% auto;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.form-control{
+    min-height: 150px;
+    max-height: 550px; 
+}
+
+

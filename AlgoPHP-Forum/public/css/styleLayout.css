@@ -1,0 +1,118 @@
+/*Paramètre général*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+header{
+    display: flex;
+    height: 85px;
+    background-color: rgb(1, 0, 61);
+
+}
+
+header #userSession{
+    width: 30%;
+    margin: auto;
+    margin-left: 5%;
+    font-size: 2em;
+    color: rgb(243, 241, 241);
+}
+
+header .userSession{
+    width: 70%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    text-align: right;
+    margin: auto;
+    margin-right: 15%;
+}
+
+nav .linkHeaderNav{
+    color: azure;
+}
+
+nav a{
+    margin-left: 30px;
+}
+
+nav a:hover{
+    color: rgb(175, 81, 13);
+
+    /* text-decoration: none; */
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+
+
+/* Paramètre du dropdown profil */
+
+.dropbtn {
+    background-color: rgb(1, 0, 61);
+    color: azure;
+    border: none;
+    margin-left: 30px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown .dropdown-content a{
+    margin: 0;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: rgb(175, 81, 13);
+}

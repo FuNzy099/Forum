@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    flex-direction: column-reverse;
+
+    margin-top: 3%;
+
+}
+
+a, h1{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+
+
+
+

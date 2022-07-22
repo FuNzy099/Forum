@@ -1,0 +1,14 @@
+a, h1{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+
+}
